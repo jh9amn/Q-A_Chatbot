@@ -1,0 +1,68 @@
+# langchain
+# ipykernel
+# python-dotenv
+# langchain-community
+# pypdf
+# beautifulsoup4
+# arxiv
+# pymupdf
+# wikipedia
+# langchain-text-splitters
+# langchain-openai
+# chromadb
+# sentence-transformers
+# langchain_huggingface
+# faiss-cpu
+# langchain-anthropic
+# langchain-core
+# sentence-transformers
+# langchain-classic
+# langchain-ollama
+# streamlit
+
+
+
+# Core LangChain
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Model Providers
+langchain-openai
+langchain-ollama
+langchain-anthropic
+langchain-huggingface
+langchain-classic
+langchain-groq
+
+
+# Embeddings & Vector Stores
+chromadb
+faiss-cpu
+sentence-transformers
+langchain-chroma
+
+# Document Loaders
+pypdf
+pymupdf
+beautifulsoup4
+arxiv
+wikipedia
+
+# Utilities
+python-dotenv
+ipykernel
+
+# UI
+streamlit
+
+fastapi
+uvicorn
+langserve
+sse_starlette
+
+
+beautifulsoup4
+bs4
+
