@@ -3,6 +3,17 @@ from utils.loaders import load_webpage
 from utils.vectorstore import create_vectorstore
 from utils.rag_chain import create_rag_chain
 
+
+DEFAULT_STATE = {
+    "rag_chain": None,
+    "chat_history": [],
+}
+
+for k, v in DEFAULT_STATE.items():
+    if k not in st.session_state:
+        st.session_state[k] = v
+
+
 st.title("💬 Conversational RAG Chatbot")
 
 url = st.text_input("Enter the URL of the webpage to load:")
